@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Web Development Course</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <nav class="navbar">
+    <div class="logo">LearnHub</div>
+    <ul class="nav-links">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="course.html">Courses</a></li>
+    </ul>
+  </nav>
+
+  <div class="course-container">
+    <h2>Web Development: Introduction</h2>
+
+    <div class="video-container">
+      <iframe width="100%" height="315" src="https://www.youtube.com/embed/ZxKM3DCV2kE" title="Web Dev Intro" frameborder="0" allowfullscreen></iframe>
+    </div>
+
+    <h3>Quiz: Test Your Knowledge</h3>
+    <div id="quiz">
+      <p id="question">Question appears here</p>
+      <div id="options"></div>
+      <button onclick="nextQuestion()">Next</button>
+    </div>
+
+    <div class="progress">
+      <label>Progress:</label>
+      <progress id="progressBar" value="0" max="5"></progress>
+    </div>
+  </div>
+
+  <footer>
+    <p>&copy; 2025 LearnHub. All rights reserved.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
