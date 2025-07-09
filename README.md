@@ -23,4 +23,42 @@ A simple online learning platform that allows users to:
 ---
 
 ## 📂 Project Structure
+.
+├── index.html # Home page with intro and navigation
+├── login.html # User login page
+├── course.html # Embedded video + quiz + progress tracking
+├── style.css # Styling for all pages
+└── script.js # JS for login, quiz, and progress logic
+
+---
+
+## 🛠️ Technologies Used
+
+- HTML5
+- CSS3
+- JavaScript (Vanilla)
+- LocalStorage (for login and progress)
+
+---
+
+## ✅ How to Use
+
+1. Clone or download the repo
+2. Open `index.html` in your browser
+3. Navigate to the course → Login → Start learning!
+4. Complete the quiz to test your knowledge
+
+---
+
+## 👩‍💻 Developed By
+
+**Swati Gautam**  
+CodTech Internship – July 2025 Batch
+
+---
+
+## 📬 Contact
+
+For any queries, connect with me on [LinkedIn](https://www.linkedin.com)
+
 
